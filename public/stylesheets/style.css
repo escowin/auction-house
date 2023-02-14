@@ -10,10 +10,18 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
+	/* outline: 1px dotted blue; */
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	background-color: var(--color-two);
+	height: 100vh;
+}
+
+main {
+	flex-grow: 1;
 }
 
 /* START HEADER & FOOTER */
